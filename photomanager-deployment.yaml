@@ -19,4 +19,4 @@ spec:
         image: ibmcom/PhotoManager:v1
         ports:
         - name: http-server
-          containerPort: 3000
+          containerPort: 4000
