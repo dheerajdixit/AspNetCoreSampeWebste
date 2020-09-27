@@ -1,22 +1,22 @@
 ﻿apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: PhotoManager    
+  name: photomanager    
   labels:
-    app: PhotoManager
+    app: photomanager
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: PhotoManager
+      app: photomanager
   template:
     metadata:
       labels:
-        app: PhotoManager
+        app: photomanager
     spec:
       containers:
-      - name: PhotoManager
-        image: ibmcom/PhotoManager:v1
+      - name: photomanager
+        image: ibmcom/photomanager:v1
         ports:
         - name: http-server
           containerPort: 4000

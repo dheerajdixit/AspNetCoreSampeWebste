@@ -1,13 +1,13 @@
 ﻿apiVersion: v1
 kind: Service
   metadata:
-    name: PhotoManger
+    name: photomanager
     labels:
-      app: PhotoManger
+      app: photomanager
   spec:
     ports:
     - port: 3000
       targetPort: http-server
     selector:
-      app: PhotoManger
+      app: photomanager
     type: LoadBalancer
