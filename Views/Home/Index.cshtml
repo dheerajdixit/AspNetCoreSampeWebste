@@ -1,0 +1,21 @@
+﻿@model HomeIndexViewModel
+@{
+    ViewBag.PageTitle = "Employee List";
+}
+<div class="card-deck">
+    @foreach (var e in Model.Photo)
+    {
+        <div class="card m-3">
+            <div class="card-header">
+                <h3>@e.Story</h3>
+            </div>
+            <img class="card-img-top" src="~/MyPic.jpg" asp-append-version="true" />
+            <div class="card-footer text-center">
+                <a class="btn btn-primary m-1" asp-controller="Home" asp-action="Details" asp-route-id="@e.Id">View</a>
+                <a class="btn btn-primary  m-1" href="#">Edit</a>
+                <a class="btn btn-danger  m-1" href="#">Delete</a>
+            </div>
+        </div>
+
+    }
+</div>

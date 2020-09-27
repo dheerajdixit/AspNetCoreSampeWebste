@@ -1,0 +1,3 @@
+C:\Users\dheeraj_kumar_dixit\source\repos\Practice\obj\Debug\netcoreapp2.2\Practice.csprojAssemblyReference.cache
+C:\Users\dheeraj_kumar_dixit\source\repos\Practice\obj\Debug\netcoreapp2.2\Practice.AssemblyInfoInputs.cache
+C:\Users\dheeraj_kumar_dixit\source\repos\Practice\obj\Debug\netcoreapp2.2\Practice.AssemblyInfo.cs

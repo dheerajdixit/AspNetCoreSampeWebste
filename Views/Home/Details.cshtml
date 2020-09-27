@@ -1,0 +1,33 @@
+﻿@model HomeDetailsViewModel
+@{
+
+    ViewBag.PageTitle = "Employee Details";
+}
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Model.Photo.PhotoLead</h1>
+            </div>
+            <div class="card-body text-center">
+                <img src="~/MyPic.jpg" class="card-img-top" asp-append-version="true" />
+                <h4>Photo Id: @Model.Photo.Id</h4>
+                <h4>Photo Lead: @Model.Photo.PhotoLead</h4>
+                <h4>Location: @Model.Photo.Location</h4>
+                <h4>Story: @Model.Photo.Story</h4>
+            </div>
+            <div class="card-footer text-center">
+                <a class="btn btn-primary  m-1" asp-controller="Home" asp-action="Index">Back</a>
+                <a class="btn btn-primary  m-1" href="#">Edit</a>
+                <a class="btn btn-danger  m-1" href="#">Delete</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/CustomScripts.js"></script>
+}
