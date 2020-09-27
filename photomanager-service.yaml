@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Service
+  metadata:
+    name: PhotoManger
+    labels:
+      app: PhotoManger
+  spec:
+    ports:
+    - port: 3000
+      targetPort: http-server
+    selector:
+      app: PhotoManger
+    type: LoadBalancer

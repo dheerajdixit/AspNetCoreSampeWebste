@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\Practice.csproj": {}
+    "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\PhotoManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\Practice.csproj": {
+    "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\PhotoManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\Practice.csproj",
-        "projectName": "Practice",
-        "projectPath": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\Practice.csproj",
+        "projectUniqueName": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\PhotoManager.csproj",
+        "projectName": "PhotoManager",
+        "projectPath": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\PhotoManager.csproj",
         "packagesPath": "C:\\Users\\dheeraj_kumar_dixit\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\obj\\",
         "projectStyle": "PackageReference",

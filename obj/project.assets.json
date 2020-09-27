@@ -5606,11 +5606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\Practice\\Practice.csproj",
-      "projectName": "Practice",
-      "projectPath": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\Practice\\Practice.csproj",
+      "projectUniqueName": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\PhotoManager.csproj",
+      "projectName": "PhotoManager",
+      "projectPath": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\PhotoManager.csproj",
       "packagesPath": "C:\\Users\\dheeraj_kumar_dixit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\Practice\\obj\\",
+      "outputPath": "C:\\Users\\dheeraj_kumar_dixit\\source\\repos\\TestWeb\\AspNetCoreSampeWebste\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
