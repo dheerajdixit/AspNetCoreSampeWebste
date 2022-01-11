@@ -15,5 +15,9 @@ namespace Practice.Model
         public string Story { get; set; }
         [Required]
         public string PhotoLead { get; set; }
+
+        public string UniquePhotoName { get; set; }
+
+        public string AZ_Photo_Uri { get; set; }
     }
 }

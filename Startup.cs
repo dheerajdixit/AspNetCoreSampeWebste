@@ -25,7 +25,7 @@ namespace Practice
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(options => options.EnableEndpointRouting = false).AddXmlSerializerFormatters();
-            services.AddScoped<IPhotoRepository, MockPhotoRespository>();
+            services.AddScoped<IPhotoRepository, SQLPhotoRepository>();
             services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(config.GetConnectionString("AlbumConnectionString")));
         }
 

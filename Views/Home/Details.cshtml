@@ -1,7 +1,8 @@
 ﻿@model HomeDetailsViewModel
 @{
 
-    ViewBag.PageTitle = "Employee Details";
+    ViewBag.PageTitle = "Photo Details";
+    var photoPath =  (Model.Photo.AZ_Photo_Uri??"brand.png");
 }
 
 <div class="row justify-content-center m-3">
@@ -11,7 +12,7 @@
                 <h1>@Model.Photo.PhotoLead</h1>
             </div>
             <div class="card-body text-center">
-                <img src="~/MyPic.jpg" class="card-img-top" asp-append-version="true" />
+                <img src="@photoPath" class="card-img-top" asp-append-version="true" />
                 <h4>Photo Id: @Model.Photo.Id</h4>
                 <h4>Photo Lead: @Model.Photo.PhotoLead</h4>
                 <h4>Location: @Model.Photo.Location</h4>
